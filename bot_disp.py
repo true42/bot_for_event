@@ -10,7 +10,7 @@ from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart
 from aiogram.types import Message
 
-load_dotenv(dotenv_path='config.env')
+load_dotenv(dotenv_path='config/config.env')
 TOKEN = getenv("BOT_TOKEN")
 
 # All handlers should be attached to the Router (or Dispatcher)
